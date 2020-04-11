@@ -2,8 +2,10 @@
 export default {
   mode: 'spa',
   router: {
+    linkActiveClass: 'active-link',
+    linkExactActiveClass: 'exact-active-link',
     base: '/h5'
-},
+  },
   /*
   ** Headers of the page
   */
@@ -25,8 +27,7 @@ export default {
   /*
   ** Global CSS
   */
-  css: [
-  ],
+  css: [],
   /*
   ** Plugins to load before mounting the App
   */
@@ -41,7 +42,11 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/style-resources'
   ],
+  styleResources: {
+    scss: '@/assets/css/global.scss'
+  },
   /*
   ** Build configuration
   */
