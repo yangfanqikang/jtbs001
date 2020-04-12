@@ -2,3 +2,7 @@ $innerWidth: 1100px;
 $primaryBg: rgba(0,72,117,1);
 $primaryColor: #0067A8;
 $primaryDefault: #004875;
+.inner{
+  margin: 0 auto;
+  width: $innerWidth;
+}

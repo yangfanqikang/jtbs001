@@ -1,8 +1,8 @@
 <template>
     <div class="title-des">
-      <h1>{{title}}</h1>
+      <h1 :style="{color: color}">{{title}}</h1>
       <div class="divide"></div>
-      <p>{{des}}</p>
+      <p :style="{color: color}">{{des}}</p>
     </div>
 </template>
 
@@ -17,6 +17,10 @@
         des: {
             type: String,
           required: true
+        },
+        color: {
+            type: String,
+          default: "#505050"
         }
       }
     }
@@ -24,7 +28,7 @@
 
 <style lang="scss" scoped>
 .title-des{
-  margin: 49px 0;
+  padding: 49px 0;
   text-align: center;
   h1{
     font-size:55px;

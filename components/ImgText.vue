@@ -40,9 +40,16 @@
   }
   .img-text-title{
     font-size: 20px;
+    margin-left: 10px;
+    ul{
+      padding-left: 0;
+    }
     li{
       list-style: none;
       margin-bottom: 6px;
+      img{
+        margin-right: 10px;
+      }
     }
     h3{
       font-size:30px;
