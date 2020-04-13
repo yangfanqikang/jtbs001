@@ -16,7 +16,7 @@
             <input type="text" v-model="companyName" placeholder="公司">
             <input type="text" v-model="phone" placeholder="手机">
           </div>
-          <h3>立即提交</h3>
+          <button class='submit-info'>立即提交</button>
         </li>
       </ul>
     </div>
@@ -28,7 +28,9 @@
     import "../assets/css/global.scss";
     export default {
         name: "ContactUs",
-        components:{TitleDes},
+        components:{
+            TitleDes
+        },
         data(){
             return{
                 name:"",
@@ -95,7 +97,30 @@
         input{
           display: block;
           margin-bottom: 20px;
+          background-color: white;
+          height: 52px;
+          line-height: 52px;
+          width: 450px;
+          border: none;
+          border-radius: 5px;
+          padding-left: 20px;
         }
+        input:focus,input:visited{
+          border: none;
+        }
+      }
+      .submit-info{
+        background-color: #FF5360;
+        height:50px;
+        lineH-height:50px;
+        border-radius:15px;
+        width: 160px;
+        font-size: 30px;
+        color: white;
+        cursor: pointer;
+      }
+      .submit-info:hover{
+        background-color: #FF5359;
       }
     }
   }

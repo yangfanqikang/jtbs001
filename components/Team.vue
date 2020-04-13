@@ -4,9 +4,9 @@
     <div class="inner">
       <ul class="picture">
         <li class="icon"><img src="../assets/img/team/icon_team_des_001.png" alt=""></li>
-        <li class="text"><span>团 结</span></li>
+        <li class="text line"><i class="left"></i><span>团 结</span><i class="right"></i></li>
         <li class="icon"><img src="../assets/img/team/icon_team_des_002.png" alt=""></li>
-        <li class="text"><span>专 注</span></li>
+        <li class="text line"><i class="left"></i><span>专 注</span></li>
         <li class="text"><span>高 效</span></li>
         <li class="icon"><img src="../assets/img/team/icon_team_des_003.png" alt=""></li>
         <li class="text"><span>专 业</span></li>
@@ -44,6 +44,7 @@
       margin-bottom: 13px ;
       margin-right: 9px;
       text-align: center;
+      position: relative;
       img{
         margin-top: 27px;
       }
@@ -80,6 +81,33 @@
     }
     li.text{
       background:rgba(1,114,162,1);
+    }
+    .line{
+      i{
+        display: inline-block;
+        position: absolute;
+        bottom: -40px;
+        background-color: #0172a2;
+        height: 40px;
+        width: 10px;
+        z-index: 1;
+      }
+      i.left{
+        left:0px;
+        transform:rotate(45deg) translateX(-15px);
+        -ms-transform:rotate(45deg) translateX(-15px); /* Internet Explorer */
+        -moz-transform:rotate(45deg) translateX(-15px); /* Firefox */
+        -webkit-transform:rotate(45deg) translateX(-15px); /* Safari 和 Chrome */
+        -o-transform:rotate(45deg) translateX(-15px); /* Opera */
+      }
+      i.right{
+        right:0px;
+        transform:rotate(-45deg) translateX(15px);;
+        -ms-transform:rotate(-45deg) translateX(15px);; /* Internet Explorer */
+        -moz-transform:rotate(-45deg) translateX(15px);; /* Firefox */
+        -webkit-transform:rotate(-45deg) translateX(15px);; /* Safari 和 Chrome */
+        -o-transform:rotate(-45deg) translateX(15px);; /* Opera */
+      }
     }
   }
   .slogan{

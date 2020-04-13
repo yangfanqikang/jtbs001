@@ -8,6 +8,11 @@
         </div>
         <div class="more">
           <div class="more-loading">
+            <span class="icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
             <p>更多爆款案例<br/>持续更新中</p>
           </div>
         </div>
@@ -68,8 +73,36 @@
         font-weight:300;
         color:rgba(255,255,255,1);
         line-height:40px;
-        background-color: red;
-        opacity: 0.5;
+        background-color: #79AACE;
+        position: relative;
+        .icon{
+          position: absolute;
+          top: 114px;
+          transform: translateX(50%);
+          margin-left: -17px;
+          span{
+            display: block;
+            width:34px;
+            height: 34px;
+            border: 1px solid white;
+            transform: rotate(45deg);
+            border-top-color: rgba(0,0,0,0);
+            border-left-color: rgba(0,0,0,0);
+            position: absolute;
+          }
+          span:nth-child(1){
+            top:90px;
+          }
+          span:nth-child(2){
+            top:110px;
+          }
+          span:nth-child(3){
+            top:130px;
+          }
+        }
+        p{
+          padding-top: 300px;
+        }
       }
     }
   }
