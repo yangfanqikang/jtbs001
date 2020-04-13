@@ -22,10 +22,13 @@
         Footer
       },
       watch: {
-        $route(newValue, oldValue) {
-          console.log(newValue, oldValue)
-          this.imgUrl = picMap[newValue.name]
-          console.log(this.imgUrl)
+        $route: {
+          handler(newValue, oldValue) {
+            console.log(newValue, oldValue)
+            this.imgUrl = picMap[newValue.name]
+            console.log(this.imgUrl)
+          },
+          immediate: true
         }
       }
     }
