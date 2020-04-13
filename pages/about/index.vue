@@ -8,7 +8,7 @@
     import TitleDes from "../../components/TitleDes";
     import AboutUs from "../../components/AboutUs";
     export default {
-        name: "index",
+      name: "index",
       components: {AboutUs, TitleDes},
       layout: "HeadFoot"
     }
