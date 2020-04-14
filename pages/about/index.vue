@@ -1,5 +1,6 @@
 <template>
     <div>
+      <div class="banner"></div>
       <about-us></about-us>
       <dev-history></dev-history>
       <AboutHonor></AboutHonor>
@@ -18,6 +19,9 @@
     }
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+.banner{
+  background-image: url('../../assets/img/pic_banner_about.png');
+  @extend .banner;
+}
 </style>

@@ -62,6 +62,7 @@
       width: 265px;
       height: 574px;
       margin: 5px;
+      box-shadow: 0 0 0 1px #cccccc;
     }
     .more{
       .more-loading{

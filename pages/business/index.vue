@@ -1,5 +1,6 @@
 <template>
     <div class="business">
+      <div class="banner"></div>
       <business></business>
       <production-service></production-service>
       <cooperation-flow></cooperation-flow>
@@ -17,6 +18,9 @@
     }
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+  .banner{
+    background-image: url('../../assets/img/pic_business03_banner.png');
+  @extend .banner;
+  }
 </style>

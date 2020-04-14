@@ -1,5 +1,6 @@
 <template>
   <div class="team">
+    <div class="banner"></div>
     <Team />
   </div>
 </template>
@@ -13,6 +14,9 @@
     }
 </script>
 
-<style scoped>
-
+<style lang="scss" scoped>
+  .banner{
+    background-image: url('../../assets/img/pic_banner_team.png');
+    @extend .banner;
+  }
 </style>

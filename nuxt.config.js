@@ -1,23 +1,23 @@
 
 export default {
-  mode: 'spa',
+  mode: 'universal',
   router: {
     linkActiveClass: 'active-link',
     linkExactActiveClass: 'exact-active-link',
-    base: '/h5'
+    // base: ''
   },
   /*
   ** Headers of the page
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: "钱源传媒",
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: '钱源传媒', name: '钱源传媒', content: "钱源传媒" }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: './favicon.ico' }
     ]
   },
   /*

@@ -67,12 +67,10 @@
       .item::before{
         content:"";
         display: inline-block;
-        width:50px;
-        height: 50px;
+        width:52px;
+        height: 52px;
         background:url('../assets/img/contact/icon_contact_001.png') no-repeat;
         margin-right: 15px;
-        border:1px dashed rgba(0,72,117,0.3);
-        opacity:0.3;
       }
       .item:nth-child(2)::before{
         background:url('../assets/img/contact/icon_contact_002.png') no-repeat;
