@@ -3,7 +3,7 @@
       <div class="banner"></div>
       <about-us></about-us>
       <wolf-culture></wolf-culture>
-      <dev-history></dev-history>
+<!--      <dev-history></dev-history>-->
       <AboutHonor></AboutHonor>
     </div>
 </template>

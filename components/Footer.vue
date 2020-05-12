@@ -118,6 +118,9 @@
           >div{
             margin-left: 30px;
             text-align: center;
+            img{
+              width: 126px;
+            }
           }
         }
       }
