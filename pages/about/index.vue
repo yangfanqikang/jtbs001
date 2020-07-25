@@ -3,7 +3,6 @@
       <div class="banner"></div>
       <about-us></about-us>
       <wolf-culture></wolf-culture>
-<!--      <dev-history></dev-history>-->
       <AboutHonor></AboutHonor>
     </div>
 </template>
@@ -16,7 +15,7 @@
     import WolfCulture from "../../components/WolfCulture";
     export default {
         name: "index",
-      components: {WolfCulture, AboutHonor, DevHistory, AboutUs, TitleDes},
+      components: {WolfCulture, AboutHonor, AboutUs, TitleDes},
       layout: "HeadFoot"
     }
 </script>
