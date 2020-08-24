@@ -73,6 +73,9 @@ header{
           text-decoration: none;
           padding: 0px 15px;
         }
+        a.exact-active-link{
+          color: white;
+        }
       }
     }
     .explain{

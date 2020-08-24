@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h4 class="title">{{title}}</h4>
-    <div class="sub-title">{{subTitle}}</div>
+    <h4 class="title" :style="{color:textColor}">{{title}}</h4>
+    <div class="sub-title" :style="{color:textColor}">{{subTitle}}</div>
   </div>
 </template>
 
@@ -16,6 +16,10 @@
           subTitle:{
             type:String,
             default: null
+          },
+          textColor:{
+            type:String,
+            default: null
           }
         }
     }
@@ -27,7 +31,7 @@
     font-size:2.25rem;
     color: #D95747;
     font-weight: normal;
-    padding-top: 129px;
+    padding-top: 100px;
     padding-bottom: 15px;
   }
   .sub-title{
