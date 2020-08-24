@@ -1,10 +1,14 @@
-$innerWidth: 1100px;
+$innerWidth: 75%;
 $primaryBg: rgba(0,72,117,1);
 $primaryColor: #0067A8;
 $primaryDefault: #004875;
 .inner{
-  margin: 0 auto;
   width: $innerWidth;
+  margin: 0 auto;
+}
+.content{
+  display: flex;
+  justify-content: space-between;
 }
 li{
   list-style: none;
@@ -13,12 +17,5 @@ button{
   box-shadow: none;
   border: none;
 }
-input{
 
-}
-.banner {
-  height: 700px;
-  background: no-repeat center center;
-  background-size: cover;
-  box-sizing: border-box;
-}
+
