@@ -1,6 +1,6 @@
 <template>
     <div>
-      关于我们
+      产品及应用
     </div>
 </template>
 

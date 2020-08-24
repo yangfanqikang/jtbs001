@@ -1,6 +1,6 @@
 <template>
     <div>
-      关于我们
+      服务
     </div>
 </template>
 

@@ -10,11 +10,11 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: "钱源传媒",
+    title: "长沙市优丽环保科技有限公司",
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: '钱源传媒', name: '钱源传媒', content: "钱源传媒" }
+      { hid: '长沙市优丽环保科技有限公司', name: '长沙市优丽环保科技有限公司', content: "长沙市优丽环保科技有限公司" }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: './favicon.ico' }
