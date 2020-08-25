@@ -2,11 +2,12 @@
   <div :class="{min:true,bgImg:MinData.bgImgSrc}" :style="{backgroundColor:MinData.bgColor}">
     <div class="inner">
       <Title :title="MinData.title" :subTitle="MinData.subTitle" :textColor="MinData.titleColor"/>
-      <p>{{MinData.text}}</p>
+      <p v-if="MinData.text">{{MinData.text}}</p>
       <div class="content">
         <div class="item" v-for="item in MinData.items" :key="item.title">
           <img :src="item.imgSrc" alt="">
-          <div>{{item.title}}</div>
+          <div :class="{title:item.text}">{{item.title}}</div>
+          <p v-if="item.text">{{item.text}}</p>
         </div>
       </div>
     </div>
@@ -47,8 +48,13 @@
         text-align: center;
         color: #666;
         font-size: 1.5rem;
+        padding: 30px;
+        box-sizing: border-box;
         >div{
           margin-top: 56px;
+        }
+        .title{
+          margin-top: 20px;
         }
       }
     }

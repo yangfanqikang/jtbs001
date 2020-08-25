@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h4 class="title" :style="{color:textColor}">{{title}}</h4>
+    <h4 class="title" :style="{color:textColor,paddingTop:paddingTop}">{{title}}</h4>
     <div class="sub-title" :style="{color:textColor}">{{subTitle}}</div>
   </div>
 </template>
@@ -18,6 +18,10 @@
             default: null
           },
           textColor:{
+            type:String,
+            default: null
+          },
+          paddingTop:{
             type:String,
             default: null
           }
