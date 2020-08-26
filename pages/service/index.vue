@@ -1,21 +1,34 @@
 <template>
   <div class="news">
     <NavHead :navHeadData="navHeadData"/>
+    <IronService />
+    <ColorsService />
+    <Explain />
+    <ColorCoverService />
   </div>
 </template>
 
 <script>
   import NavHead from '../../components/NavHead'
+  import IronService from '../../components/IronService'
+  import ColorsService from '../../components/ColorsService'
+  import Explain from '../../components/Explain'
+  import ColorCoverService from '../../components/ColorCoverService'
   export default {
-    name: "New",
+    layout: "HeadFoot",
+    name: "Service",
     components:{
-      NavHead
+      NavHead,
+      IronService,
+      ColorsService,
+      Explain,
+      ColorCoverService
     },
     data(){
       return{
         navHeadData:{
           text: '热情服务客户，以一流的产品回报客户',
-          imgSrc: require('../../assets/img/banner1.png'),
+          imgSrc: require('../../assets/img/service/service-banner.png'),
           imgTitleSrc: require('../../assets/img/yltitle.png')
         }
       }

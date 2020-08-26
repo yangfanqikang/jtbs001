@@ -11,7 +11,6 @@
 </script>
 
 <style lang="scss" scoped>
-
   footer{
     background-color: white;
     text-align: center;

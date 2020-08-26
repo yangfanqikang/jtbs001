@@ -9,6 +9,7 @@
   import NavHead from '../../components/NavHead'
   import NewList from '../../components/NewList'
   export default {
+    layout: "HeadFoot",
     name: "New",
     components:{
       NavHead,
