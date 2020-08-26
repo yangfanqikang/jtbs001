@@ -1,7 +1,7 @@
 <template>
     <div class="iron-service">
       <div class="inner">
-        <Title :title="title" :subTitle="subTitle" :paddingTop="paddingTop"/>
+        <Title :title="title" :subTitle="subTitle" :paddingTop="paddingTop" :rightLeftLine="rightLeftLine"/>
         <div class="content tabs">
           <div class="item">
             <span>系列色卡</span>
@@ -38,6 +38,7 @@
             title: '氧化铁系列颜料服务',
             subTitle: 'IRON OXIDE SERVICE',
             paddingTop:'60px',
+            rightLeftLine: true,
             redData:{
               title:"IRON OXIDE RED",
               titleColor:"#C14437",

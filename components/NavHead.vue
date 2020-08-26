@@ -1,6 +1,8 @@
 <template>
   <div class="nav">
-    <Nav />
+    <div class="inner">
+      <Nav :blackRed="navHeadData.blackRed"/>
+    </div>
     <div class="head">
       <img class="banner" :src="navHeadData.imgSrc" alt="">
       <div class="explain">
@@ -26,7 +28,7 @@
     },
     data(){
       return{
-
+        blackRed:true
       }
     }
   }

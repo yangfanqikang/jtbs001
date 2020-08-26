@@ -1,10 +1,10 @@
 <template>
-    <div class="inner">
+    <div>
       <div class="nav">
         <div class="header-logo">
           <img class="logo" src="../assets/img/logo.png" alt="">
         </div>
-        <nav>
+        <nav :class="{blackRed: blackRed,redWhite:redWhite,pinkWhite:pinkWhite}">
           <nuxt-link to="/">首页</nuxt-link>
           <nuxt-link to="/product">产品及应用</nuxt-link>
           <nuxt-link to="/service">服务</nuxt-link>
@@ -17,7 +17,21 @@
 
 <script>
     export default {
-        name: "Nav"
+        name: "Nav",
+        props:{
+          blackRed:{
+            type:Boolean,
+            default:false
+          },
+          redWhite:{
+            type:Boolean,
+            default:false
+          },
+          pinkWhite:{
+            type:Boolean,
+            default:false
+          }
+        }
     }
 </script>
 
@@ -36,10 +50,32 @@
         height: auto;
       }
     }
-    nav{
+    .redWhite{
       font-size: 1.125rem;
       a{
         color: #6F1B11;
+        text-decoration: none;
+        padding: 0px 15px;
+      }
+      a.exact-active-link{
+        color: white;
+      }
+    }
+    .blackRed{
+      font-size: 1.125rem;
+      a{
+        color: #333;
+        text-decoration: none;
+        padding: 0px 15px;
+      }
+      a.exact-active-link{
+        color: #C14437;
+      }
+    }
+    .pinkWhite{
+      font-size: 1.125rem;
+      a{
+        color: #EE9494;
         text-decoration: none;
         padding: 0px 15px;
       }

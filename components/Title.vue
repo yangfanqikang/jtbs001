@@ -1,7 +1,12 @@
 <template>
   <div>
     <h4 class="title" :style="{color:textColor,paddingTop:paddingTop}">{{title}}</h4>
-    <div class="sub-title" :style="{color:textColor}">{{subTitle}}</div>
+    <div class="middle-line" v-if="middleLine" :style="{backgroundColor: middleLineColor}"></div>
+    <div class="sub-title" :style="{color:subTextColor}">
+      <span class="line left" v-if="rightLeftLine"></span>
+      <span>{{subTitle}}</span>
+      <span class="line right" v-if="rightLeftLine"></span>
+    </div>
   </div>
 </template>
 
@@ -21,9 +26,25 @@
             type:String,
             default: null
           },
+          subTextColor:{
+            type:String,
+            default: null
+          },
           paddingTop:{
             type:String,
             default: null
+          },
+          middleLine:{
+            type: Boolean,
+            default:false
+          },
+          middleLineColor:{
+            type:String,
+            default: null
+          },
+          rightLeftLine:{
+            type: Boolean,
+            default:false
           }
         }
     }
@@ -38,6 +59,14 @@
     padding-top: 100px;
     padding-bottom: 15px;
   }
+  .middle-line{
+    width:66px;
+    height:4px;
+    background:rgba(217,87,71,1);
+    border-radius:2px;
+    margin: 0 auto;
+    margin-bottom: 6px;
+  }
   .sub-title{
     color: #504D4D;
     font-size: 1.125rem;
@@ -46,5 +75,18 @@
     margin: 0 auto;
     text-align: center;
     line-height: 30px;
+    .line{
+      display: inline-block;
+      width: 100px;
+      height: 1px;
+      background-color: #D95747;
+      vertical-align: middle;
+    }
+    .right{
+      margin-left: 40px;
+    }
+    .left{
+      margin-right: 40px;
+    }
   }
 </style>

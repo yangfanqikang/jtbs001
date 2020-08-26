@@ -23,7 +23,8 @@
         bannerData:{
           bannerSrc: bannerSrc,
           titleSrc: titleSrc,
-          text: "我们用专业缔造品牌精髓"
+          text: "我们用专业缔造品牌精髓",
+          redWhite:true
         },
         worldData:{
           title: "畅销全球",
@@ -48,7 +49,8 @@
           ],
           bgColor: "#FFF5F4",
           bgImgSrc: null,
-          titleColor: "#D95747"
+          titleColor: "#D95747",
+          middleLine: false
         },
       }
     },

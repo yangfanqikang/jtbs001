@@ -2,7 +2,7 @@
     <header>
       <img class="banner" :src="bannerData.bannerSrc" alt="">
       <div class="inner">
-        <Nav />
+        <Nav :pinkWhite="bannerData.pinkWhite" :redWhite="bannerData.redWhite"/>
         <div class="explain">
           <img class="title" :src="bannerData.titleSrc" alt="">
           <div>{{bannerData.text}}</div>
@@ -23,6 +23,11 @@
       },
       components:{
         Nav
+      },
+      data(){
+          return {
+
+          }
       }
     }
 </script>

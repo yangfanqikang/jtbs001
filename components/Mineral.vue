@@ -1,7 +1,7 @@
 <template>
   <div :class="{min:true,bgImg:MinData.bgImgSrc}" :style="{backgroundColor:MinData.bgColor}">
     <div class="inner">
-      <Title :title="MinData.title" :subTitle="MinData.subTitle" :textColor="MinData.titleColor"/>
+      <Title :title="MinData.title" :subTitle="MinData.subTitle" :textColor="MinData.titleColor" :subTextColor="MinData.subTitleColor" :middleLine="MinData.middleLine" :middleLineColor="MinData.middleLineColor"/>
       <p v-if="MinData.text">{{MinData.text}}</p>
       <div class="content">
         <div class="item" v-for="item in MinData.items" :key="item.title">
@@ -27,6 +27,11 @@
     components:{
       Title
     },
+    data(){
+      return{
+        middleLine:true
+      }
+    }
   }
 </script>
 

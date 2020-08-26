@@ -115,12 +115,13 @@
       }
     }
     a{
+      display: inline-block;
       text-decoration: none;
       color: #4C9AF1;
       font-size: 0.75rem;
       cursor: pointer;
-      height: 50px;
-      line-height: 50px;
+      height: 70px;
+      line-height: 70px;
       span{
         display: inline-block;
         width: 16px;

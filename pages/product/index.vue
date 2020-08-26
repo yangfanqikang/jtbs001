@@ -20,11 +20,13 @@
         bannerData:{
           bannerSrc: bannerSrc,
           titleSrc: titleSrc,
-          text: "以创新的产品理念深入人们现有的生活状态"
+          text: "以创新的产品理念深入人们现有的生活状态",
+          pinkWhite:true
         },
         yht:{
           title: "氧化铁系列颜料",
           subTitle: "IRON OXIDE",
+          subTitleColor: "#504D4D",
           text:"氧化铁颜料系列产品以卓越的颜色稳定性、耐光色牢度、耐候稳定性和耐化学性而著称。主要用于常规的各种建筑材料、涂料油漆、橡塑纸品等领域的着色",
           items:[
             {
@@ -46,11 +48,14 @@
           ],
           bgColor: "#fff",
           bgImgSrc: null,
-          titleColor: "#D95747"
+          titleColor: "#D95747",
+          middleLineColor:"#D95747",
+          middleLine:true
         },
         lq:{
           title: "彩色沥青颜料",
           subTitle: "COLORED ASPHALT",
+          subTitleColor: "#504D4D",
           text:"我公司独立自主研发的环境友好型彩色沥青专用色粉，耐候性强，价格低廉。主要产品为沥青红、沥青蓝、沥青绿、沥青黄、沥青灰，沥青紫等多种颜色类型十几种不同色调产品。",
           items:[
             {
@@ -68,11 +73,14 @@
           ],
           bgColor: "#FFF6F4",
           bgImgSrc: null,
-          titleColor: "#D95747"
+          titleColor: "#D95747",
+          middleLineColor:"#D95747",
+          middleLine:true
         },
         fg:{
           title: "彩色有机覆盖物",
           subTitle: "COLOR ORGANIC COVERING",
+          subTitleColor: "#504D4D",
           text:"秉承取之自然，回馈于自然的环保理念，我公司利用各种有机生物体材料研发生产的彩色有机覆盖物，加工处理后铺设于园艺植物或树木周围土壤表面，起保持土壤水分、吸附扬尘、调节土壤温度、增加土壤肥力、抑制杂草、促进植栽生长、减少土壤侵蚀和紧实度以及装饰美观等等作用。",
           items:[
             {
@@ -94,11 +102,14 @@
           ],
           bgColor: "#fff",
           bgImgSrc: null,
-          titleColor: "#D95747"
+          titleColor: "#D95747",
+          middleLineColor:"#D95747",
+          middleLine:true
         },
         applyData:{
           title: "产品应用",
           subTitle: "PRODUCT APPLICATION",
+          subTitleColor: "white",
           text:"我们秉承环保健康的理念，为丰富城市的色彩而努力。彩色沥青具有减少噪声污染、诱导车流、色彩多样、美化环境等优点。有研究表明，具有彩色步道的城市，人们外出锻炼的意愿更为强烈。",
           items:[
             {
@@ -113,6 +124,8 @@
           bgColor: "#fff",
           bgImgSrc: require("../../assets/img/product/production_bg.png"),
           titleColor: "#fff",
+          middleLineColor:"#fff",
+          middleLine:true
         }
       }
     },

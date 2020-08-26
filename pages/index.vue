@@ -23,7 +23,8 @@ export default {
       bannerData:{
         bannerSrc: bannerSrc,
         titleSrc: titleSrc,
-        text: "助力健康生活 丰富城市色彩"
+        text: "助力健康生活 丰富城市色彩",
+        redWhite: true
       }
     }
   },

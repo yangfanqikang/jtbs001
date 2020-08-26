@@ -20,7 +20,8 @@
         navHeadData:{
           text: '热情服务客户，以一流的产品回报客户',
           imgSrc: require('../../assets/img/new/new_banner.png'),
-          imgTitleSrc: require('../../assets/img/new/new-title.png')
+          imgTitleSrc: require('../../assets/img/new/new-title.png'),
+          blackRed:true
         }
       }
     }
