@@ -4,7 +4,7 @@
       <Title :title="MinData.title" :subTitle="MinData.subTitle" :textColor="MinData.titleColor" :subTextColor="MinData.subTitleColor" :middleLine="MinData.middleLine" :middleLineColor="MinData.middleLineColor"/>
       <p v-if="MinData.text">{{MinData.text}}</p>
       <div class="content">
-        <div class="item" v-for="item in MinData.items" :key="item.title">
+        <div class="item" v-for="item in MinData.items" :key="item.title" :style="{width: itemWidth}">
           <img :src="item.imgSrc" alt="">
           <div :class="{title:item.text}">{{item.title}}</div>
           <p v-if="item.text">{{item.text}}</p>
@@ -31,6 +31,11 @@
       return{
         middleLine:true
       }
+    },
+    computed: {
+      itemWidth: function() {
+        return (1 / this.MinData.items.length) * 100 +'%'
+      }
     }
   }
 </script>
@@ -49,17 +54,24 @@
         font-size: 0.75rem;
         margin: 30px auto;
       }
-      .item{
-        text-align: center;
-        color: #666;
-        font-size: 1.5rem;
-        padding: 30px;
-        box-sizing: border-box;
-        >div{
-          margin-top: 56px;
-        }
-        .title{
-          margin-top: 20px;
+      .content{
+        flex-flow: row wrap;
+        .item{
+          text-align: center;
+          color: #666;
+          font-size: 1.5rem;
+          padding: 30px;
+          box-sizing: border-box;
+          img{
+            width: 90%;
+            height: auto;
+          }
+          >div{
+            margin-top: 56px;
+          }
+          .title{
+            margin-top: 20px;
+          }
         }
       }
     }

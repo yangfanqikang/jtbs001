@@ -97,4 +97,17 @@
       }
     }
   }
+  @media (min-width: 1024px) and (max-width: 1200px){
+
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+
+  }
+  @media (min-width: 413px) and (max-width: 767px) {
+
+  }
+  @media (max-width: 412px) {
+
+  }
 </style>
