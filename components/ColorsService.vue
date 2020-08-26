@@ -8,7 +8,7 @@
           <span>{{item.text}}</span>
         </div>
       </div>
-      <a href=""><span></span>彩色沥青颜料色卡下载链接</a>
+      <a href="../assets/file/彩色沥青颜料色卡.jpg"><span></span>彩色沥青颜料色卡下载链接</a>
     </div>
   </div>
 </template>

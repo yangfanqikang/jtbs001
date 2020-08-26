@@ -48,6 +48,7 @@
       background-color: white;
       color: #333;
       padding: 10px 60px;
+      padding-bottom: 50px;
       h5{
         height: 40px;
         line-height: 40px;

@@ -3,7 +3,7 @@
       <div class="inner">
         <Title :title="title" :subTitle="subTitle" :paddingTop="paddingTop" :rightLeftLine="rightLeftLine"/>
         <div class="content tabs">
-          <div class="item">
+          <div class="item active">
             <span>系列色卡</span>
           </div>
           <div class="item">
@@ -19,6 +19,7 @@
       <IronBlock :ironData="blackData"/>
       <TwoIronBlock :twoData="twoColorData1"/>
       <TwoIronBlock :twoData="twoColorData2"/>
+      <a href="../assets/file/优丽铁系色卡.jpg"><span></span>优丽铁系色卡下载链接</a>
     </div>
 </template>
 
@@ -234,6 +235,43 @@
     }
 </script>
 
-<style scoped>
-
+<style scoped lang="scss">
+  .iron-service {
+    background-color: white;
+    text-align: center;
+    .tabs{
+      width: 70%;
+      padding: 0px 50px;
+      box-sizing: border-box;
+      margin: 15px auto;
+      margin-bottom: 35px;
+      border-bottom: 1px solid #DDDDDD;
+      padding-bottom: 10px;
+      .active{
+        span{
+          padding-bottom: 9px;
+          border-bottom: 2px solid #D95747;
+          border-radius:2px;
+        }
+      }
+    }
+    a{
+      display: inline-block;
+      text-decoration: none;
+      color: #4C9AF1;
+      font-size: 0.75rem;
+      cursor: pointer;
+      height: 70px;
+      line-height: 70px;
+      span{
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background-color: #4C9AF1;
+        border-radius:50%;
+        margin-right: 15px;
+        vertical-align: text-bottom;
+      }
+    }
+  }
 </style>

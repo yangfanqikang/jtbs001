@@ -64,7 +64,7 @@
           box-shadow:0px 3px 70px 0px rgba(197,27,59,0.19);
           padding: 20px;
           background-color: white;
-          height: 350px;
+          height: 400px;
           position: relative;
           >div{
             color: #D95747;

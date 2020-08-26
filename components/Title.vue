@@ -2,9 +2,9 @@
   <div>
     <h4 class="title" :style="{color:textColor,paddingTop:paddingTop}">{{title}}</h4>
     <div class="middle-line" v-if="middleLine" :style="{backgroundColor: middleLineColor}"></div>
-    <div class="sub-title" :style="{color:subTextColor}">
+    <div :class="{'sub-title': true,'sub-title-line': subTitleLine}" :style="{color:subTextColor}">
       <span class="line left" v-if="rightLeftLine"></span>
-      <span>{{subTitle}}</span>
+      <span class="text">{{subTitle}}</span>
       <span class="line right" v-if="rightLeftLine"></span>
     </div>
   </div>
@@ -45,6 +45,10 @@
           rightLeftLine:{
             type: Boolean,
             default:false
+          },
+          subTitleLine:{
+            type: Boolean,
+            default:false
           }
         }
     }
@@ -72,6 +76,7 @@
     font-size: 1.125rem;
     padding-bottom: 20px;
     width: 70%;
+    padding: 0px 50px;
     margin: 0 auto;
     text-align: center;
     line-height: 30px;
@@ -87,6 +92,14 @@
     }
     .left{
       margin-right: 40px;
+    }
+  }
+  .sub-title-line{
+    border-bottom: 1px solid #DDDDDD;
+    .text{
+      padding-bottom: 3px;
+      border-bottom: 2px solid #D95747;
+      border-radius:2px;
     }
   }
 </style>
