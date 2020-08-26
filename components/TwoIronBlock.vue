@@ -20,7 +20,7 @@
     name: "IronBlock",
     props:{
       twoData:{
-        type:Object,
+        type:Array,
         default:null
       }
     }

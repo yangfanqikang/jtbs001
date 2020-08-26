@@ -21,7 +21,7 @@
       props:{
         ironData:{
           type:Object,
-          default:null
+          default:[]
         }
       }
     }

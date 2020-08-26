@@ -1,5 +1,5 @@
 <template>
-  <div class="news">
+  <div class="nav">
     <Nav />
     <div class="head">
       <img class="banner" :src="navHeadData.imgSrc" alt="">
@@ -33,7 +33,7 @@
 </script>
 
 <style lang="scss" scoped>
-  .news{
+  .nav{
     width:100%;
     background-color: white;
     .head{

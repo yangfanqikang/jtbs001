@@ -1,12 +1,22 @@
 <template>
-    <footer>
+    <footer :style="{backgroundColor:bgColor, color:textColor}">
       <div>Copyright © 2020 长沙市优丽环保科技有限公司</div>
     </footer>
 </template>
 
 <script>
     export default {
-        name: "Footer"
+        name: "Footer",
+      props:{
+        bgColor:{
+          type:String,
+          default:null
+        },
+        textColor:{
+          type:String,
+          default:null
+        }
+      }
     }
 </script>
 

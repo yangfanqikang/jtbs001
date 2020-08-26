@@ -1,10 +1,11 @@
 <template>
-  <div class="news">
+  <div class="service">
     <NavHead :navHeadData="navHeadData"/>
     <IronService />
     <ColorsService />
     <Explain />
     <ColorCoverService />
+    <Footer :bgColor="bgFooterColor" :textColor="footerColor"/>
   </div>
 </template>
 
@@ -14,18 +15,21 @@
   import ColorsService from '../../components/ColorsService'
   import Explain from '../../components/Explain'
   import ColorCoverService from '../../components/ColorCoverService'
+  import Footer from '../../components/Footer'
   export default {
-    layout: "HeadFoot",
     name: "Service",
     components:{
       NavHead,
       IronService,
       ColorsService,
       Explain,
-      ColorCoverService
+      ColorCoverService,
+      Footer
     },
     data(){
       return{
+        bgFooterColor:"#C14437",
+        footerColor:"white",
         navHeadData:{
           text: '热情服务客户，以一流的产品回报客户',
           imgSrc: require('../../assets/img/service/service-banner.png'),
@@ -37,6 +41,9 @@
 </script>
 
 <style lang="scss" scoped>
+  footer{
+    background-color: red;
+  }
   .news{
     width:100%;
     background-color: white;
