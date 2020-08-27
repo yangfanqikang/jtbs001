@@ -8,7 +8,7 @@
           <span>{{item.text}}</span>
         </div>
       </div>
-      <a href="../assets/file/彩色沥青颜料色卡.jpg"><span></span>彩色沥青颜料色卡下载链接</a>
+      <a href="../assets/file/彩色沥青颜料色卡.jpg" download="彩色沥青颜料色卡"><span></span>彩色沥青颜料色卡下载链接</a>
     </div>
   </div>
 </template>
@@ -131,6 +131,20 @@
         border-radius:50%;
         margin-right: 15px;
         vertical-align: text-bottom;
+      }
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .colors-service {
+      .content {
+        .item {
+          width: 25%;
+          padding: 8px;
+          .item-block {
+            width: 120px;
+            height: 120px;
+          }
+        }
       }
     }
   }

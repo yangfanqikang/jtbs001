@@ -19,7 +19,7 @@
       <IronBlock :ironData="blackData"/>
       <TwoIronBlock :twoData="twoColorData1"/>
       <TwoIronBlock :twoData="twoColorData2"/>
-      <a href="../assets/file/优丽铁系色卡.jpg"><span></span>优丽铁系色卡下载链接</a>
+      <a href="../assets/file/优丽铁系色卡.jpg" download="优丽铁系色卡"><span></span>优丽铁系色卡下载链接</a>
     </div>
 </template>
 

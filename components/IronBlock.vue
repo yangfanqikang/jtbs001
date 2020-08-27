@@ -73,6 +73,30 @@
       }
     }
   }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .iron-block {
+      h5{
+        margin-bottom: 30px;
+      }
+      .content {
+        .item {
+          margin-bottom: 30px;
+          .block {
+            width: 120px;
+            height: 70px;
+            .color-block{
+              width: 100%;
+              height: 45px;
+            }
+            .text {
+              height: 25px;
+              line-height: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
   @media (min-width: 413px) and (max-width: 767px) {
     .iron-block {
       h5{
