@@ -5,8 +5,8 @@
       <p v-if="MinData.text">{{MinData.text}}</p>
       <div class="content">
         <div class="item" v-for="item in MinData.items" :key="item.title" :style="{width: itemWidth}">
-          <img :src="item.imgSrc" alt="">
-          <div :class="{title:item.text}">{{item.title}}</div>
+          <img :src="item.imgSrc" alt="" :style="{width: item.imgSrcWidth ? item.imgSrcWidth : '90%'}">
+          <div :class="{title:item.text}" :style="{color: item.titleColor ? item.titleColor : '#666'}">{{item.title}}</div>
           <p v-if="item.text">{{item.text}}</p>
         </div>
       </div>
@@ -68,6 +68,7 @@
           }
           >div{
             margin-top: 56px;
+            color: #666;
           }
           .title{
             margin-top: 20px;

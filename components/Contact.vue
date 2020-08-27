@@ -73,8 +73,11 @@
       background-color: white;
       margin: 0 auto;
       padding-bottom: 60px;
+      box-shadow: 0px 3px 70px 0px rgba(197, 27, 59, 0.19);
+      border-radius: 5px;
       .content{
         justify-content: center;
+        margin-top: 20px;
         .item{
           padding: 0px 20px;
           .title{

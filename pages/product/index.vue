@@ -27,7 +27,7 @@
           title: "氧化铁系列颜料",
           subTitle: "IRON OXIDE",
           subTitleColor: "#504D4D",
-          text:"氧化铁颜料系列产品以卓越的颜色稳定性、耐光色牢度、耐候稳定性和耐化学性而著称。主要用于常规的各种建筑材料、涂料油漆、橡塑纸品等领域的着色",
+          text:"氧化铁颜料系列产品以卓越的颜色稳定性、耐光色牢度、耐候稳定性和耐化学性而著称。主要用于常规的各种建筑材料、涂料油漆、橡塑纸品等领域的着色。",
           items:[
             {
               imgSrc:require("../../assets/img/product/yht_001.png"),
@@ -114,11 +114,13 @@
           items:[
             {
               imgSrc:require("../../assets/img/pic-example-1.png"),
-              title:"长沙"
+              title:"长沙",
+              titleColor: "#fff"
             },
             {
               imgSrc:require("../../assets/img/pic-example-4.png"),
-              title:"益阳"
+              title:"益阳",
+              titleColor: "#fff"
             },
           ],
           bgColor: "#fff",

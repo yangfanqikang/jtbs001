@@ -46,6 +46,7 @@
 
 <style scoped lang="scss">
   .product{
+    background-color: white;
     .item{
       width: 50%;
       position: relative;

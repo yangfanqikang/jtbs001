@@ -11,7 +11,7 @@
             <p>公司多年来致力于无机颜料的研发、生产和销售，主产特种干粉砂浆用颜料和超细氧化铁颜料，产品具备高着色力、易分散性、强耐候性等优良颜料性能。针对砂浆的颜料品种齐全，颜色丰富，可以满足不同客户对色调的要求。超细颜料可以满足油漆涂料、塑料、陶瓷等行业的不同需求。</p>
             <p>公司针对于新兴的彩色沥青行业专门研发了彩色沥青专用系列颜料，现在拥有五条生产线专门用于彩色沥青颜料的生产，能够同时生产沥青红、沥青蓝、沥青绿、沥青灰、沥青黄等多种颜色，同时还能够跟客户不同的需求来及时调配色彩并生产。</p>
           </div>
-          <div class="item">
+          <div class="item img-item">
             <img src="../assets/img/about/about_005.png" alt="">
           </div>
         </div>
@@ -84,6 +84,7 @@
           font-size: 0.75rem;
           line-height: 30px;
           margin-bottom: 50px;
+          text-indent: 2em;
         }
       }
       .features{
@@ -108,6 +109,42 @@
             text-align: center;
             line-height: 40px;
           }
+        }
+      }
+    }
+  }
+  @media (min-width: 1024px) and (max-width: 1200px){
+    .about-us{
+      .inner{
+        .about{
+          .img-item{
+            display: flex;
+            align-items: center;
+            img{
+              align-items: center;
+            }
+          }
+        }
+        .features {
+          bottom: -100px;
+        }
+      }
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1023px){
+    .about-us{
+      .inner{
+        .about{
+          .img-item{
+            display: flex;
+            align-items: center;
+            img{
+              align-items: center;
+            }
+          }
+        }
+        .features {
+          bottom: -100px;
         }
       }
     }

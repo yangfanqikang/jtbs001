@@ -247,11 +247,16 @@
       margin-bottom: 35px;
       border-bottom: 1px solid #DDDDDD;
       padding-bottom: 10px;
+      color: #504D4D;
+      .item{
+        cursor: pointer;
+      }
       .active{
         span{
           padding-bottom: 9px;
           border-bottom: 2px solid #D95747;
           border-radius:2px;
+          color: #D95747;
         }
       }
     }
@@ -271,6 +276,13 @@
         border-radius:50%;
         margin-right: 15px;
         vertical-align: text-bottom;
+      }
+    }
+  }
+  @media (min-width: 1200px) {
+    .iron-service {
+      .tabs {
+        width: 50%;
       }
     }
   }

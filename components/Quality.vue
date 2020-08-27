@@ -48,6 +48,7 @@
         font-size: 0.75rem;
         line-height: 30px;
         text-align: center;
+        margin-top: -30px;
       }
     }
   }

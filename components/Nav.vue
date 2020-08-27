@@ -92,17 +92,11 @@
         width: 50px;
         height: auto;
         margin-top: 5px;
-        .logo{
-
-        }
       }
       .redWhite{
         font-size: 0.8rem;
         a{
           padding: 0px 6px;
-        }
-        a.exact-active-link{
-
         }
       }
       .blackRed{
@@ -110,17 +104,11 @@
         a{
           padding: 0px 6px;
         }
-        a.exact-active-link{
-
-        }
       }
       .pinkWhite{
         font-size: 0.8rem;
         a{
           padding: 0px 6px;
-        }
-        a.exact-active-link{
-
         }
       }
     }
@@ -133,17 +121,11 @@
         width: 50px;
         height: auto;
         margin-top: 5px;
-        .logo{
-
-        }
       }
       .redWhite{
         font-size: 0.8rem;
         a{
           padding: 0px 6px;
-        }
-        a.exact-active-link{
-
         }
       }
       .blackRed{
@@ -151,17 +133,11 @@
         a{
           padding: 0px 6px;
         }
-        a.exact-active-link{
-
-        }
       }
       .pinkWhite{
         font-size: 0.8rem;
         a{
           padding: 0px 6px;
-        }
-        a.exact-active-link{
-
         }
       }
     }

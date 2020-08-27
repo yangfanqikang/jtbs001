@@ -76,10 +76,10 @@
     font-size: 1.125rem;
     padding-bottom: 20px;
     width: 100%;
-    padding: 0px 50px;
     margin: 0 auto;
     text-align: center;
     line-height: 30px;
+    margin-bottom: 30px;
     .line{
       display: inline-block;
       width: 100px;
