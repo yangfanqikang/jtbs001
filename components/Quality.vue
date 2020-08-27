@@ -28,7 +28,7 @@
         return{
           title: '品质保障',
           subTitle: 'QUALITY ASSURANCE',
-          paddingTopNum: "50px"
+          paddingTopNum: "0px"
         }
       }
     }
@@ -48,6 +48,24 @@
         font-size: 0.75rem;
         line-height: 30px;
         text-align: center;
+      }
+    }
+  }
+  @media (min-width: 413px) and (max-width: 767px) {
+    .quality {
+      .item {
+        padding: 20px 20px;
+      }
+    }
+  }
+  @media (max-width: 412px) {
+    .quality {
+      .content{
+        flex-flow: row wrap;
+      }
+      .item {
+        width: 100%;
+        padding: 20px 20px;
       }
     }
   }

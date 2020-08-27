@@ -66,5 +66,18 @@
       }
     }
   }
+  @media (max-width: 412px) {
+    .nav {
+      .head {
+        .explain{
+          font-size: 1rem;
+          top:4%;
+          >div{
+            padding-top: 2%;
+          }
+        }
+      }
+    }
+  }
 </style>
 

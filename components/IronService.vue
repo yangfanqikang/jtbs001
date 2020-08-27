@@ -274,4 +274,11 @@
       }
     }
   }
+  @media (max-width: 412px) {
+    .iron-service {
+      .tabs {
+        width: 100%;
+      }
+    }
+  }
 </style>

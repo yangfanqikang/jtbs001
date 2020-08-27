@@ -47,7 +47,7 @@
         .title{
           font-size: 1.5rem;
           color: #C14437;
-          line-height: 50px;
+          line-height: 40px;
           height: 40px;
         }
         p{
@@ -58,6 +58,31 @@
         .time{
           color: #999;
           font-size: 0.75rem;
+        }
+      }
+    }
+  }
+  @media (max-width: 412px) {
+    .new-list {
+      padding: 20px 15px;
+      .list {
+        img {
+          width: 60px;
+          height: 60px;
+        }
+        .new-content {
+          padding-left: 20px;
+          .title {
+            font-size: 1rem;
+            line-height: 0px;
+            height: 0px;
+          }
+          p{
+            color: #999;
+            font-size: 0.75rem;
+            line-height: 30px;
+            margin-top: 10px;
+          }
         }
       }
     }

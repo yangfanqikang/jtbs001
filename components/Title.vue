@@ -102,4 +102,22 @@
       border-radius:2px;
     }
   }
+
+  @media (min-width: 413px) and (max-width: 767px) {
+    .sub-title{
+      width:100%
+    }
+  }
+
+  @media (max-width: 412px) {
+    .title{
+      padding-top: 40px;
+    }
+    .sub-title{
+      width:100%;
+      .line{
+        display: none;
+      }
+    }
+  }
 </style>

@@ -98,16 +98,68 @@
     }
   }
   @media (min-width: 1024px) and (max-width: 1200px){
-
+    .product {
+      .item {
+        padding: 20px;
+        padding-bottom: 50px;
+        > div {
+          padding:0px;
+        }
+      }
+    }
   }
 
   @media (min-width: 768px) and (max-width: 1023px) {
-
+    .product {
+      .item {
+        padding: 10px;
+        padding-bottom: 50px;
+        > div {
+          padding: 0px;
+          .text{
+            width: 85%;
+            >div{
+              font-size: 1.5rem;
+            }
+          }
+        }
+      }
+    }
   }
   @media (min-width: 413px) and (max-width: 767px) {
-
+    .product {
+      .content{
+        .item {
+          padding-bottom: 40px;
+          >div{
+            padding: 20px;
+            .text{
+              height: 450px;
+              >div{
+                font-size: 1.5rem;
+              }
+            }
+          }
+        }
+      }
+    }
   }
   @media (max-width: 412px) {
-
+    .product {
+      .content{
+        flex-flow: row wrap;
+        .item {
+          width: 100%;
+          >div{
+            padding: 30px;
+            .text{
+              >div{
+                font-size: 1.5rem;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 </style>

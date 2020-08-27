@@ -102,4 +102,18 @@
       }
     }
   }
+  @media (max-width: 412px) {
+    .contact {
+      .contact-us {
+        width: 88%;
+        .content {
+          justify-content: flex-start;
+          flex-flow: row wrap;
+          .item {
+            padding: 0px 40px;
+          }
+        }
+      }
+    }
+  }
 </style>

@@ -69,4 +69,32 @@ header{
     }
   }
 }
+@media (min-width: 413px) and (max-width: 767px) {
+  header {
+    .inner {
+      width: 95%;
+      .explain{
+        font-size: 1rem;
+      }
+    }
+  }
+}
+@media (max-width: 412px) {
+  header {
+    .inner {
+      width: 95%;
+      .explain{
+        font-size: 1rem;
+        top:45%;
+        .title{
+          width: 22%;
+          height: auto;
+        }
+        >div{
+          padding-top: 2%;
+        }
+      }
+    }
+  }
+}
 </style>

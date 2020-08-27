@@ -46,4 +46,18 @@
       }
     }
   }
+  @media (max-width: 412px) {
+    .cover-service {
+      .no-data {
+        img {
+          padding: 30px;
+          width: 50%;
+          height: auto;
+        }
+        > div {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
 </style>

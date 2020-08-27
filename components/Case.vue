@@ -83,4 +83,44 @@
       }
     }
   }
+  @media (min-width: 413px) and (max-width: 767px) {
+    .case {
+      .content {
+        .item {
+          padding: 0px 20px;
+          span {
+            position: absolute;
+            bottom: 3px;
+            left: 20px;
+            right: 20px;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 412px) {
+    .case{
+      p{
+        width:100%;
+        padding: 0px 30px;
+        box-sizing: border-box;
+      }
+      .content{
+        flex-flow: row wrap;
+        .item {
+          padding: 0px 20px;
+          margin-bottom: 20px;
+          span {
+            position: absolute;
+            bottom: 3px;
+            left: 20px;
+            right: 20px;
+            height: 30px;
+            line-height: 30px;
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+  }
 </style>

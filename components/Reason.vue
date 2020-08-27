@@ -90,4 +90,9 @@
       }
     }
   }
+  @media (max-width: 412px) {
+    .reason {
+      padding-bottom: 40px;
+    }
+  }
 </style>

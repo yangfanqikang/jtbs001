@@ -17,5 +17,17 @@ button{
   box-shadow: none;
   border: none;
 }
+@media (min-width: 413px) and (max-width: 767px) {
+  .inner{
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 412px) {
+  .inner{
+    width: 98%;
+    margin: 0 auto;
+  }
+}
 
 

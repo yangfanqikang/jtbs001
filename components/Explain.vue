@@ -62,4 +62,11 @@
       }
     }
   }
+  @media (max-width: 412px) {
+    .explain {
+      .inner {
+        padding: 10px 30px;
+      }
+    }
+  }
 </style>

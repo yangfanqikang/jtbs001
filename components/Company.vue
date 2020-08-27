@@ -51,4 +51,21 @@
       }
     }
   }
+  @media (max-width: 412px) {
+    .company {
+      background: url("../assets/img/bg-company.png") no-repeat;
+      .content {
+        padding-bottom: 20px;
+        .item{
+          width: 100%;
+          p{
+            padding: 0px 30px;
+          }
+        }
+        .item:last-child {
+          display: none;
+        }
+      }
+    }
+  }
 </style>

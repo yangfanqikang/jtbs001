@@ -106,6 +106,7 @@
           width: 120px;
           height: 120px;
           border-radius:5px;
+          margin: 0 auto;
         }
         span{
           color: #333;
@@ -130,6 +131,35 @@
         border-radius:50%;
         margin-right: 15px;
         vertical-align: text-bottom;
+      }
+    }
+  }
+  @media (min-width: 413px) and (max-width: 767px) {
+    .colors-service {
+      .content {
+        .item {
+          width: 25%;
+          padding: 8px;
+          .item-block{
+            width: 90px;
+            height: 90px;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 412px) {
+    .colors-service {
+      .content {
+        .item {
+          width: 25%;
+          padding: 8px;
+          text-align: center;
+          .item-block{
+            width: 65px;
+            height: 65px;
+          }
+        }
       }
     }
   }

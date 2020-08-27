@@ -88,4 +88,36 @@
       }
     }
   }
+  @media (min-width: 413px) and (max-width: 767px) {
+    .min{
+      .inner {
+        p {
+          width: 100%;
+        }
+      }
+    }
+  }
+  @media (max-width: 412px) {
+    .min{
+      padding-bottom: 40px;
+      .inner{
+        p{
+          width:100%;
+        }
+        .content{
+          .item{
+            padding: 10px;
+            font-size: 1rem;
+            img{
+              width: 100%;
+              height: auto;
+            }
+            >div{
+              margin-top: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
 </style>
