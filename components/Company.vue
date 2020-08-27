@@ -38,7 +38,7 @@
           color: #666666;
           font-size: 0.875rem;
           width: 100%;
-          padding: 0px 40px;
+          padding: 0px 30px;
           padding-bottom: 15px;
           line-height: 1.5rem;
         }

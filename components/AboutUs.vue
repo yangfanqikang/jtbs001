@@ -53,7 +53,7 @@
         flex-flow: row wrap;
         .item{
           width: 50%;
-          padding: 50px;
+          padding: 30px;
           box-sizing: border-box;
           .title{
             .line{
