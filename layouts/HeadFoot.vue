@@ -17,7 +17,8 @@
       },
       data(){
         return {
-          btnFlag: false
+          btnFlag: false,
+          scrollTop:0
         }
       },
       // vue的两个生命钩子，这里不多解释。
