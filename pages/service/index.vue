@@ -17,6 +17,7 @@
   import ColorCoverService from '../../components/ColorCoverService'
   import Footer from '../../components/Footer'
   export default {
+    layout: "HeadFoot",
     name: "Service",
     components:{
       NavHead,

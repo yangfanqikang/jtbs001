@@ -52,15 +52,43 @@
       .img-item{
         display: flex;
         align-items: center;
+        justify-content: center;
         img{
           align-items: center;
         }
       }
     }
   }
+  @media (min-width: 1441px) {
+    .company {
+      .content {
+        padding-bottom: 20px;
+        .item{
+          img{
+            width: 50%;
+            height: auto;
+            padding: 30px;
+          }
+        }
+      }
+    }
+  }
+  @media (min-width: 1368px) and (max-width: 1440px) {
+    .company {
+      .content {
+        padding-bottom: 20px;
+        .item{
+          img{
+            width: 80%;
+            height: auto;
+            padding: 40px;
+          }
+        }
+      }
+    }
+  }
   @media (max-width: 412px) {
     .company {
-      background: url("../assets/img/bg-company.png") no-repeat;
       .content {
         padding-bottom: 20px;
         .item{
