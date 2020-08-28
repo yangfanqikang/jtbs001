@@ -1,5 +1,5 @@
 <template>
-    <div class="head-foot" id="#top">
+    <div class="head-foot">
       <nuxt/>
       <Footer/>
       <div class="go-top" @click="backTop" v-if="btnFlag">
